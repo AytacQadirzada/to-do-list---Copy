@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 27vw;
+    height: 41vh;
+    border: 2px solid lightgray;
+    margin: 0 auto;
+    margin-top: 30vh;
+    border-radius: 1vw;
+}
+.header{
+    width: 100%;
+    height: 5vh;
+    background-color: #FFDC40;
+    border-top-left-radius: 0.8vw;
+    border-top-right-radius: 0.8vw;
+}
+.text{
+    font-size: 2.1vw;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 2vh;
+}
+.empty-and-img{
+    display: flex;
+    margin-bottom: 2.5vh;
+    margin-top: 2.5vh;
+}
+.empty{
+    width: 86%;
+}
+.empty-and-img img{
+    width: 2.1vw;
+}
+.input{
+    display: flex;
+    justify-content: flex-start;
+    width: 90%;
+    height: 6.8vh;
+    margin: 0 auto;
+    border: 2px solid lightgray;
+    margin-bottom: 2vh;
+    gap: 0.5vw;
+    border-radius: 0.8vw;
+}
+input{
+    width: 20vw;
+    height: 6.3vh;
+    border: none;
+    border-radius: 0.8vw;
+    font-size: 1.5vw;
+    padding-left: 5px;
+    right: 5px;
+}
+input:focus{
+    outline: none;
+}
+.input img{
+    width: 25px;
+}
+.add{
+    margin-left: 7.9vw;
+    margin-top: 3vh;
+}
+.add img{
+    width: 12vw;
+}
+.black-gray{
+    display: none;
+}
+.clear{
+    display: none;
+}
